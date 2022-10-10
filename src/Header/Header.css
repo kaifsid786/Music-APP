@@ -1,0 +1,87 @@
+.h{
+    width: 100vw;
+    height: 10rem;
+    background-color: black;
+    display: flex;
+    position: fixed;
+    top: 0;
+}
+.h-left{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.h-logo{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 20rem;
+    font-size: 1.8rem;
+}
+.h-logo img{
+   width: 6rem;
+   height: 6rem;
+   margin-right: 2rem;
+}
+.h-right{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup{
+    width: 10rem;
+    height: 5rem;
+    color: rgb(168, 166, 166);
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 22%;
+    font-weight: 800;
+}
+.login{
+    width: 10rem;
+    height: 4rem;
+    color: black;
+    background-color: white;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 6%;
+    font-weight: 800;
+}
+
+/* Responsivness Code -------------------------------------------------> */
+@media screen and (max-width:1400px) {
+    html{
+        font-size: 70%;
+    }
+}
+@media screen and (max-width:1000px) {
+    html{
+        font-size: 50%;
+    }
+}
+@media screen and (max-width:560px) {
+    html{
+        font-size: 40%;
+    }
+    .h{
+        height: 10rem;
+    }
+    .signup{
+        margin-left: 0;
+    }
+    .h-logo{
+        margin-right: 4rem;
+    }
+}

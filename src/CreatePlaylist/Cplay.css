@@ -1,0 +1,14 @@
+.Cp{
+    min-width: 83vw;
+    min-height: 80vh;
+    background-color: rgb(23, 22, 22);
+    position: relative;
+    top: 10rem;
+    left: 17vw;
+    /* z-index: -1; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
