@@ -26,10 +26,10 @@ export default function SideBar(props){
                    </div>
                    <div className={props.play ? "s-playlist active" :"s-playlist"}>
                          <QueueMusicIcon fontSize="large"/> 
-                         <a href="/#/playlist" classname="s-diff" >PlayList</a>
+                         <a href="/Music-APP/#/playlist" classname="s-diff" >PlayList</a>
                    </div>
                    <div className={props.crpl?"s-addplist active" :"s-addplist"}>
-                        <AddCircleOutlinedIcon fontSize="large"/> <a href="/#/Crplaylist" classname="s-diff">Create Playlist</a>
+                        <AddCircleOutlinedIcon fontSize="large"/> <a href="/Music-APP/#/Crplaylist" classname="s-diff">Create Playlist</a>
                    </div>
                </div>
            </div>
