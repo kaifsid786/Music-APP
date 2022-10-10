@@ -18,7 +18,7 @@ export default function SideBar(props){
                    </div>
                    <div className={ props.search ? "s-search active" : "s-search"}>
                        <SearchIcon fontSize="large" id="s-search"/> 
-                       <a href="#/search" classname="s-diff" >Search</a>
+                       <a href="Music-APP/#/search" classname="s-diff" >Search</a>
                     </div>
                    <div className="s-fav">
                          <StarOutlineIcon fontSize="large"/> 
